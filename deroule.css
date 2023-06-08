@@ -1,0 +1,113 @@
+
+#SAE12{
+    background-color:#9EAD84; 
+}
+
+#SAE3{
+    background-color:#547D54; 
+}
+
+#SAE4{
+    background-color:#38573F; 
+}
+
+
+#SAE56{
+    background-color:#324C40; 
+}
+
+
+.accordion #p2{
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+ 
+    min-height: 150px;
+
+}
+
+.accordion #p2 label{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 75px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+#lab::before{
+    content: '+';
+    margin-right: 15px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+.accordion .content{
+    margin-left: 25px;
+    margin-top: 200px;
+    color: white;
+    padding: 0 10px;
+    line-height: 18px;
+    max-height: 0px;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 600;
+    transition: max-height 0.5s, padding 0.5s;
+    max-width: 55%;
+    text-justify: auto;
+    
+}
+
+.accordion input[type="checkbox"]:checked + #lab + .content{
+    max-height: 450px;
+    padding: 10px 10px 20px;
+}
+
+.accordion input[type="checkbox"]:checked + #lab::before{
+    content: '-';
+}
+
+#lab{
+    color: white;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    font-size: 75px;
+    -ms-transform: translate(-50%,50%);
+    transform: translate(-50%,50%);
+    
+}
+
+
+
+
+#lab::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 7px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.45s ease-out;
+    
+  }
+  
+  #lab:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+.liste{
+    text-align: left;
+
+    margin-left: 20px;
+}
+

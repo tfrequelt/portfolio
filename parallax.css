@@ -1,0 +1,25 @@
+.parallax {
+  height: 275px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("./images/p1170041_low.jpg") ;
+}
+
+.parallax2 {
+  background-image: url("./images/canada.jpg");
+}
+
+.parallax3{
+background-image: url("./images/river.jpg");
+}
+
+label >h1{
+  
+  color: white;
+  font-size: 75px;
+}

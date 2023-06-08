@@ -1,0 +1,89 @@
+header{
+    background-color: #AAA79E;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#groupe{
+  display: flex;
+  margin-left:70px ;
+
+}
+  
+#groupe2{
+display: flex;
+justify-content: center;
+margin-left: 10%;
+margin-bottom: 40px;
+}
+
+#groupe3{
+  min-width: 50%;
+}
+
+#partie{
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+
+ @font-face {
+    font-family: 'belgant';
+    src: url(belgant-aesthetic.otf);
+ }
+    
+#nom{
+  margin-top: 30px;
+  margin-left: 10%;
+    font-family: belgant;
+    font-size: 85px;;
+    display: flex;    letter-spacing: 15px;
+    right: 20%;
+    justify-content: center;
+}
+  
+  
+    #div7{
+      height: 200px;
+      margin-top: 30px;
+      text-align: center;
+    }
+  
+    #sec {
+      border: none;
+      background-color: inherit;
+      padding: 14px 28px;
+      cursor: pointer;
+      display: inline-block;
+      color: white;
+      font-size: 35px;
+ 
+  
+    }
+    @keyframes border {
+         from {width: 0px;}
+         to {width:100%}
+    }
+    
+    #sec:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      background: white;  
+      -webkit-animation-name: border; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+      -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-name: border;
+      animation-duration: 1s;
+      animation-delay: 0.5s;
+      animation-fill-mode: forwards;
+    }
+  

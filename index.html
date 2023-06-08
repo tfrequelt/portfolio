@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.F. Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <link rel="stylesheet" type="text/css" href="menu.css" >
+    <link rel="stylesheet" type="text/css" href="parallax.css" >
+    <link rel="stylesheet" type="text/css" href="deroule.css" >
+    <link rel="stylesheet" type="text/css" href="portrait.css" >
+    <link rel="stylesheet" type="text/css" href="header.css" >
+    <link rel="stylesheet" type="text/css" href="footer.css" >
+    <link rel="stylesheet" type="text/css" href="parallaxfooter.scss" >
+
+
+
+</head>
+<body>
+  
+<header>
+  <div id="groupe">
+    <div id="groupe3">
+     <div id="nom">T.FREQUELIN</div>
+     <div id="groupe2">
+      <a href="index.html#SAE12" id="partie"><div id="sec" >  Mes projets </div></a>
+     <a href="profil.html" id="partie"><div id="sec">Mon profil </div></a> 
+   </div>
+     </div>
+     <!-- <div id="sec">Accueil </div> >-->
+
+  <img id="portrait" src="images/getPhoto_edit_576055503713141.jpg" alt="photo" >
+  <!--<img id="prog" src="./images/prog.jpg" alt="erreur" height="75%" >-->
+  </div>
+
+</header>
+<input type="checkbox" id="ham-menu">
+<label for="ham-menu">
+  <div class="hide-des">
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+    <span class="menu-line"></span>
+  </div>
+  
+
+</label>
+<div class="full-page-green"></div>
+<div class="ham-menu">
+  <ul class="centre-text bold-text">
+    <script>
+      function refreshPage(page){
+        window.location.assign(page)
+        window.location.reload();
+      }
+      </script>
+     
+    <li> <a href="index.html">Mes projets</a> </li>
+    <li> <a href="javascript:refreshPage('#SAE12')">SAE1.01/02</a> </li>
+    <li> <a href="javascript:refreshPage('#SAE3')">SAE1.03</a> </li>
+    <li> <a href="javascript:refreshPage('#SAE4')">SAE1.04</a> </li>
+    <li> <a href="javascript:refreshPage('#SAE56')">SAE1.05/06</a> </li>
+
+
+  </ul>
+</div>
+
+<div id="div7">
+</div>
+<ul class="accordion" id="SAE12">
+  <li id="p2">
+      <input type="checkbox" name="accordion" id="first" >
+      <label for="first" id="lab">SAE1.01/02</label>
+      <div class="content">
+        L’objectif de ce projet était de créer un programme de classification de petits articles appelés « dépêches ». 
+        <br> Ce programme devait être codé en Java sous l’environnement de développement Intelij.
+        <br> Il devait, automatiquement, associer à chaque dépêche une catégorie, à l’aide d’un algorithme bien précis. 
+        <br>
+        <br>
+        Compétences techniques mises en œuvre : 
+        <ul class="liste">
+          <li>• Création d’ArrayList de Paires</li>
+          <li>• Association d’un score à une dépêche en fonction d’un lexique</li>
+          <li>• Lecture de fichier texte dans une fonction</li>
+          <li>• Tri et classement d’ArrayList de Paires</li>
+        </ul>
+        <br>
+        <br>
+          Compétences transversales mise en œuvre : 
+
+        <ul class="liste">
+            <li>• Travail d’équipe sur un projet de programmation</li>
+            <li>• Synthétiser un projet à l’oral</li>
+            <li>• Recherches personnelles pour enrichir un code</li>
+        </ul>
+      
+      
+      
+
+      </div>
+  </li>
+</ul>
+  
+    <div id="div2">
+      <div class="parallax parallax1">
+        <h1></h1>
+      </div>
+    </div>
+    <ul class="accordion" id="SAE3">
+      <li id="p2">
+          <input type="checkbox" name="accordion" id="second" >
+          <label for="second" id="lab">SAE1.03</label>
+          <div class="content">
+            Cette SAE avait pour but d’installer un poste informatique Unix sous l’espace graphique KDE Plasma, adapté pour le développement.
+            <br> Pour ce faire, il a fallu installer une image ISO qu’il fallait ensuite lire afin d’installer un système d’exploitation sur une machine virtuelle QEMU.
+            <br> Par la suite les différents outils tels que git, Java, Intelij et autres ont été installés.            
+            <br> Il a enfin fallu produire une carte mentale synthétisant et vulgarisant les différentes étapes du projet.
+            <br>
+            <br>
+            Compétences techniques mises en œuvre : 
+            <ul class="liste">
+              <li>• Utilisation d’un shell Unix</li>
+              <li>• Maîtrise d’installation d’application via le logiciel apt</li>
+              <li>• Maîtrise d’un espace de stockage via le logiciel df</li>
+            </ul>
+            <br>
+            <br>
+              Compétences transversales mise en œuvre : 
+    
+            <ul class="liste">
+                <li>• Savoir synthétiser des informations par des phrases brèves et images</li>
+                <li>• Vulgariser un vocabulaire technique</li>
+            </ul>
+          
+          
+          
+    
+          </div>
+      </li>
+    </ul>
+
+
+    <div id="div4">
+      <div class="parallax parallax2">
+        <h1 ></h1>
+      </div>
+    </div>
+    <ul class="accordion" id="SAE4">
+      <li id="p2">
+          <input type="checkbox" name="accordion" id="third" >
+          <label for="third" id="lab">SAE1.04</label>
+          <div class="content">
+            Ce nouveau projet a eu pour but de créer une base de données SQL relative au naufrage du Titanic.
+            <br> Il était nécessaire de faire une présentation synthétique de la situation du naufrage et de réaliser SEA modélisant les données fournies.
+            <br> Dans un second temps, de créer un schéma de modèle relationnel, ainsi que de créer les fichiers SQL correspondants à un script de création de la base et de son peuplement. 
+            <br>
+            <br>
+            Compétences techniques mises en œuvre : 
+            <ul class="liste">
+              <li>• Utilisation de CREATE/INSERT/UPDATE pour créer une base</li>
+              <li>• Utilisation de SELECT pour produire des requêtes complexes</li>
+              <li>• Création de SEA et dérivation vers un schéma de modèle relationnel</li>
+            </ul>
+            <br>
+            <br>
+              Compétences transversales mise en œuvre : 
+    
+            <ul class="liste">
+                <li>• Interpréter les données d’une base de données </li>
+                <li>• Créer du lien entre une situation de la vie réelle et une base de données</li>
+                <li>• Expliquer le but et la réalisation de CREATE</li>
+            </ul>
+
+          </div>
+      </li>
+    </ul>
+      
+    <div id="div6">
+      <div class="parallax parallax3">
+        <h1 ></h1>
+      </div>
+    
+      <ul class="accordion" id="SAE56">
+        <li id="p2">
+            <input type="checkbox" name="accordion" id="fourth" >
+            <label for="fourth" id="lab">SAE1.05/06</label>
+            <div class="content">
+              Ce dernier projet visait à créer un site web sobre écologiquement et visuellement pour une entreprise du numérique.
+              <br> Il était demandé  de réaliser un recueil de besoin comportant tout d’abord une présentation de l’entreprise choisie, ici Atos.
+              <br> Dans un second temps, il a été nécessaire de s’occuper de la conception du site internet :
+              <br> Un « wireframe », schéma de fil de fer, qui traçait l’ébauche du site, puis de le coder en html et css via le l’éditeur VSC.
+              <br>
+              <br>
+              Compétences techniques mises en œuvre : 
+              <ul class="liste">
+                <li>• Prendre en main un outil numérique pour réaliser un wireframe (whimsical).</li>
+                <li>• Coder un site en html en utilisant des outils divers et complexes</li>
+                <li>• Styliser un site à l’aide de code css</li>
+              </ul>
+              <br>
+              <br>
+                Compétences transversales mise en œuvre : 
+      
+              <ul class="liste">
+                  <li>• Coder en groupe à l’aide des outils fournis</li>
+                  <li>• Formuler une réponse à un besoin client</li>
+                  <li>• Réaliser des recherches poussées sur une entreprise </li>
+              </ul>
+
+            </div>
+        </li>
+      </ul>
+        
+  
+  <div id="div7">
+  </div>
+
+ 
+
+  
+</body>
+</html>
