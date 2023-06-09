@@ -45,3 +45,32 @@
 body{
     background-color: #ffffff;
 }
+
+.logomere{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 360px;
+    margin : 25px;
+}
+
+.txt{
+    opacity: 0;
+    color: white;
+}
+
+ 
+ .logomere:hover .txt{
+    opacity: 1;
+    transition: 0.7s;
+ }
+
+ .logomere .txt{
+    transition: 0.7s;
+ }
+
