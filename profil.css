@@ -35,6 +35,8 @@
     font-size: 20px;
     font-weight: 550;
     margin-bottom: 7px;
+    text-decoration:underline;
+    text-underline-offset: 5px;
 }
 
 .part ul{
