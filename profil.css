@@ -40,12 +40,13 @@
 .part ul{
     font-size: 15px;
     margin-bottom: 15px;
+
 }
 
 .part ul li{
     justify-content: center;
-}
 
+}
 
 body{
     background-color: #ffffff;
@@ -53,15 +54,16 @@ body{
 
 .logomere{
     display: flex;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .logo{
     max-width: 100px;
     max-height: 100px;
     border-radius: 360px;
-    margin : 25px;
+    margin-right: 10px;
+    
+
 }
 
 .txt{
@@ -75,7 +77,16 @@ body{
     transition: 0.7s;
  }
 
- .logomere .txt{
+ .logomere:hover .logo{
+    opacity: 0;
     transition: 0.7s;
  }
 
+ .logomere .txt{
+    transition: 0.7s;
+    position:absolute;
+ }
+
+.logomere .logo{
+    transition: 0.7;
+}
