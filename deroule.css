@@ -65,6 +65,7 @@ input[type="checkbox"]{
 .accordion .content .imaze{
     max-width: 30%;
     margin-left: 100px;
+    border-radius: 50px;
 }
 
 
