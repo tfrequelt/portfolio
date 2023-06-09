@@ -42,6 +42,11 @@
     margin-bottom: 15px;
 }
 
+.part ul li{
+    justify-content: center;
+}
+
+
 body{
     background-color: #ffffff;
 }
