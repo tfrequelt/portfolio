@@ -98,8 +98,29 @@
             <li>• Recherches personnelles pour enrichir un code</li>
         </ul>
           </div>
-      <img src="./images/sae1.png" alt="erreur image" class="imaze" >
-      
+      <img src="./images/sae1.png" alt="Résultat obtenu  après programmation" class="imaze" id="myImg">
+      <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+              
+              <script>
+              var modal = document.getElementById('myModal');
+              var img = document.getElementById('myImg');
+              var modalImg = document.getElementById("img01");
+              var captionText = document.getElementById("caption");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              var span = document.getElementsByClassName("close")[0];
+              
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
 
       </div>
   </li>
@@ -138,7 +159,29 @@
                 <li>• Vulgariser un vocabulaire technique</li>
             </ul>   
               </div>
-                    <img src="./images/SAE3.png" alt="erreur image" class="imaze" >
+                    <img src="./images/SAE3.png" alt="Exemple d'écran sur la machine virtuelle" class="imaze" id="myImg">
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+              
+              <script>
+              var modal = document.getElementById('myModal');
+              var img = document.getElementById('myImg');
+              var modalImg = document.getElementById("img01");
+              var captionText = document.getElementById("caption");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              var span = document.getElementsByClassName("close")[0];
+              
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
 
           </div>
       </li>
@@ -178,7 +221,29 @@
                 <li>• Expliquer le but et la réalisation de CREATE</li>
             </ul>
               </div>
-                    <img src="./images/SAE4.png" alt="erreur image" class="imaze" >
+                    <img src="./images/SAE4.png" alt="Exemple de requêtes" class="imaze" id="myImg" >
+              <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+              
+              <script>
+              var modal = document.getElementById('myModal');
+              var img = document.getElementById('myImg');
+              var modalImg = document.getElementById("img01");
+              var captionText = document.getElementById("caption");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              var span = document.getElementsByClassName("close")[0];
+              
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
 
           </div>
       </li>
@@ -218,7 +283,29 @@
                   <li>• Réaliser des recherches poussées sur une entreprise </li>
               </ul>
                 </div>
-                      <img src="./images/sae56.png" alt="erreur image" class="imaze" >
+                      <img src="./images/sae56.png" alt="Partie d'une page du site Atos créé" class="imaze" id="myImg">
+                <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+              </div>
+              
+              <script>
+              var modal = document.getElementById('myModal');
+              var img = document.getElementById('myImg');
+              var modalImg = document.getElementById("img01");
+              var captionText = document.getElementById("caption");
+              img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+              }
+              var span = document.getElementsByClassName("close")[0];
+              
+              span.onclick = function() { 
+                modal.style.display = "none";
+              }
+              </script>
 
             </div>
         </li>
