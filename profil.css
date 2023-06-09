@@ -1,6 +1,5 @@
 .part{
     margin: 150px;
-   
     border: solid;
     border-width: 2px;
     border-radius: 20px;
@@ -12,7 +11,6 @@
     color: white;
     font-size: 20px;
     max-width: 50%;
-  
 }
 
 #titre{
