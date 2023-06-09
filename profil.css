@@ -54,7 +54,9 @@ body{
 
 .logomere{
     display: flex;
-    align-items: center;    
+    align-items: center;
+    margn-top:25px;
+    margin-bottom:25px;
 }
 
 .logo{
