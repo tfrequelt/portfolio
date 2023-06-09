@@ -72,6 +72,12 @@ input[type="checkbox"]{
 
 }
 
+.accordion .content .imaze:hover{
+    transform: scale(1.5);
+    transition: 1s;
+
+}
+
 
 .accordion .content .desc{
     max-width: 50%;
