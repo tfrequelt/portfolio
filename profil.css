@@ -1,0 +1,9 @@
+.part{
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    padding: 30px;
+}
