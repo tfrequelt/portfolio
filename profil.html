@@ -1,145 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>T.F. Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css" >
-    <link rel="stylesheet" type="text/css" href="menu.css" >
-    <link rel="stylesheet" type="text/css" href="parallax.css" >
-    <link rel="stylesheet" type="text/css" href="deroule.css" >
-    <link rel="stylesheet" type="text/css" href="portrait.css" >
-    <link rel="stylesheet" type="text/css" href="header.css" >
-    <link rel="stylesheet" type="text/css" href="footer.css" >
-    <link rel="stylesheet" type="text/css" href="profil.css" >
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link rel="stylesheet" type="text/css" href="parallax.css" />
+    <link rel="stylesheet" type="text/css" href="deroule.css" />
+    <link rel="stylesheet" type="text/css" href="portrait.css" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <link rel="stylesheet" type="text/css" href="profil.css" />
+  </head>
+  <body>
+    <header>
+      <div id="groupe">
+        <div id="groupe3">
+          <div id="nom">T.FREQUELIN</div>
+          <div id="groupe2">
+            <a href="index.html#SAE12" id="partie"
+              ><div id="sec">Mes projets</div></a
+            >
+            <a href="profil.html" id="partie"
+              ><div id="sec" class="active">Mon profil</div></a
+            >
+          </div>
+        </div>
+        <!-- <div id="sec">Accueil </div> >-->
 
+        <img
+          id="portrait"
+          src="images/getPhoto_edit_576055503713141.jpg"
+          alt="photo"
+        />
+        <!--<img id="prog" src="./images/prog.jpg" alt="erreur" height="75%" >-->
+      </div>
+    </header>
+    <input type="checkbox" id="ham-menu" />
+    <label for="ham-menu">
+      <div class="hide-des">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </div>
+    </label>
+    <div class="full-page-green"></div>
+    <div class="ham-menu">
+      <ul class="centre-text bold-text">
+        <script>
+          function refreshPage(page) {
+            window.location.assign(page);
+            window.location.reload();
+          }
+        </script>
 
-</head>
-<body>
-<header>
-  <div id="groupe">
-    <div id="groupe3">
-     <div id="nom">T.FREQUELIN</div>
-     <div id="groupe2">
-      <a href="index.html#SAE12" id="partie"><div id="sec">  Mes projets </div></a>
-     <a href="profil.html" id="partie"><div id="sec" class="active">Mon profil </div></a> 
-   </div>
-     </div>
-     <!-- <div id="sec">Accueil </div> >-->
+        <li><a href="profil.html">Mon profil</a></li>
+        <li><a href="javascript:refreshPage('#prem')">Me connaître</a></li>
+        <li>
+          <a href="javascript:refreshPage('#second')">Outils et langages</a>
+        </li>
+      </ul>
+    </div>
+<div class="container-main">
+  <div class="part" id="prem">
+      <div id="titre">Me connaître</div>
+      <ul>
+        <li>
+          Je m'appelle Titouan Fréquelin, j'ai 18 ans, et je suis actuellement
+          en BUT Informatique à Grenoble. Je suis passionné par l'informatique,
+          par le code et audio visuel.
+        </li>
 
-  <img id="portrait" src="images/getPhoto_edit_576055503713141.jpg" alt="photo" >
-  <!--<img id="prog" src="./images/prog.jpg" alt="erreur" height="75%" >-->
-  </div>
+        <li>
+          Détendeur d'un baccalauréat mention bien en Mathématiques et
+          Physique-chimie, je souhaite désormais poursuivre mes études afin de
+          devenir ingénieur en informatique.
+        </li>
+      </ul>
+    </div>
 
-</header>
-<input type="checkbox" id="ham-menu">
-<label for="ham-menu">
-  <div class="hide-des">
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-  </div>
-  
+    <div class="part" id="second">
+      <div id="titre">
+        Les différents outils et langages de programmation que j'utilise
+      </div>
+      <ul>
+        <div id="soustitre">Outils</div>
+        <li>InteliJ IDEA</li>
+        <li>JavaFX</li>
+        <li>Word</li>
+        <li>Genially</li>
+        <li>Canvas</li>
+        <li>Visual Paradigm</li>
+        <li>Visual Studio Code</li>
+        <li>Whimsical</li>
+      </ul>
 
-</label>
-<div class="full-page-green"></div>
-<div class="ham-menu">
-  <ul class="centre-text bold-text">
-    <script>
-      function refreshPage(page){
-        window.location.assign(page)
-        window.location.reload();
-      }
-      </script>
-     
-    <li> <a href="profil.html">Mon profil</a> </li>
-    <li> <a href="javascript:refreshPage('#SAE12')">SAE1.01/02</a> </li>
-    <li> <a href="javascript:refreshPage('#SAE3')">SAE1.03</a> </li>
-    <li> <a href="javascript:refreshPage('#SAE4')">SAE1.04</a> </li>
-    <li> <a href="javascript:refreshPage('#SAE56')">SAE1.05/06</a> </li>
-
-
-  </ul>
+      <ul>
+        <div id="soustitre">Langages</div>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>Assembleur 68000</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>R</li>
+        <li>LaTeX</li>
+      </ul>
+    </div>
 </div>
+    
 
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://www.facebook.com/profile.php?id=100093464020711"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
 
-
-<div class="part" > <div id="titre">Me connaître </div>
-  <ul><li>
-  Je m'appelle Titouan Fréquelin, j'ai 18 ans, et je suis actuellement en BUT Informatique à Grenoble. 
-  Je suis passionné par l'informatique, par le code et audio visuel. </li>
-  
-  <li>
-  Détendeur d'un baccalauréat mention bien en Mathématiques et Physique-chimie, je souhaite désormais poursuivre mes études afin de devenir ingénieur en informatique. 
-  </li>
-  </ul>
-  </div>
-  
-  <div class="part" >
-  <div id="titre"> Les différents outils et langages de programmation que j'utilise </div>
-  <ul> <div id="soustitre"> Outils</div> 
-  <li>InteliJ IDEA</li>
-  <li>JavaFX</li>
-  <li>Word</li>
-  <li>Genially</li>
-  <li>Canvas</li>
-  <li>Visual Paradigm</li>
-  <li>Visual Studio Code</li>
-  <li>Whimsical</li>
-  
-  </ul>
-  
-  <ul> <div id="soustitre"> Langages </div>
-  <li>Java</li>
-  <li>SQL</li>
-  <li>Assembleur 68000</li>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>R</li>
-  <li>LaTeX</li>
-  </ul>
-  
-  </div>
-
-
-
-
-  
-<footer class="footer">
-  <div class="waves">
-    <div class="wave" id="wave1"></div>
-    <div class="wave" id="wave2"></div>
-    <div class="wave" id="wave3"></div>
-    <div class="wave" id="wave4"></div>
-  </div>
-  <ul class="social-icon">
-    <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/profile.php?id=100093464020711">
-        <ion-icon name="logo-facebook"></ion-icon>
-      </a></li>
-
-    <li class="social-icon__item"><a class="social-icon__link" href="https://fr.linkedin.com/in/titouan-fr%C3%A9quelin-4537a327a">
-        <ion-icon name="logo-linkedin"></ion-icon>
-      </a></li>
-    <li class="social-icon__item"><a class="social-icon__link" href="https://instagram.com/moicbeluu?igshid=MzNlNGNkZWQ4Mg==">
-        <ion-icon name="logo-instagram"></ion-icon>
-      </a></li>
-  </ul>
-  <ul class="menu">
-    <li class="menu__item"><a class="menu__link" href="index.html">Mes projets</a></li>
-    <li class="menu__item"><a class="menu__link" href="profil.html">Mon profil</a></li>
-    <li class="menu__item"><a class="menu__link" href="mailto: titouan.frequelinn@gmail.com">Me contacter</a></li>
-
-  </ul>
-  <p>&copy;2023 Titouan Frequelin | All Rights Reserved</p>
-</footer>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-
-</body>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://fr.linkedin.com/in/titouan-fr%C3%A9quelin-4537a327a"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://instagram.com/moicbeluu?igshid=MzNlNGNkZWQ4Mg=="
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item">
+          <a class="menu__link" href="index.html">Mes projets</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="profil.html">Mon profil</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="mailto: titouan.frequelinn@gmail.com"
+            >Me contacter</a
+          >
+        </li>
+      </ul>
+      <p>&copy;2023 Titouan Frequelin | All Rights Reserved</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
