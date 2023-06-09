@@ -58,8 +58,18 @@ input[type="checkbox"]{
     font-size: 13px;
     font-weight: 600;
     transition: max-height 0.5s, padding 0.5s;
-    max-width: 55%;
-    text-justify: auto;
+    text-align: justify;
+    display: flex;    
+}
+
+.accordion .content .imaze{
+    max-width: 30%;
+    margin-left: 100px;
+}
+
+
+.accordion .content .desc{
+    max-width: 50%;
     
 }
 
