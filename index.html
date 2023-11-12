@@ -55,7 +55,7 @@
   <ul class="centre-text bold-text">
     <script>
       function refreshPage(page){
-        window.location.assign(page)
+        window.location.assign(page);
         window.location.reload();
       }
       </script>
@@ -126,6 +126,8 @@ var closeBtn = document.getElementsByClassName("close")[0];
 
 closeBtn.onclick = function() { 
   modal5.style.display = "none";
+  window.location.assign('#Gamejam2023');
+  window.location.reload();
 }
 </script>
 
