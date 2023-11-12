@@ -111,21 +111,24 @@
               </div>
               
               <script>
-              var modal5 = document.getElementById('myModal5');
-              var img5 = document.getElementById('myImg5');
-              var modalImg5 = document.getElementById("img05");
-              var captionText5 = document.getElementById("caption5");
-              img5.onclick = function(){
-                modal5.style.display = "block";
-                modalImg5.src = this.src;
-                captionText5.innerHTML = this.alt;
-              }
-              var span = document.getElementsByClassName("close")[3];
-              
-              span.onclick = function() { 
-                modal4.style.display = "none";
-              }
-              </script>
+var modal5 = document.getElementById('myModal5');
+var img5 = document.getElementById('myImg5');
+var modalImg5 = document.getElementById("img05");
+var captionText5 = document.getElementById("caption5");
+
+img5.onclick = function(){
+  modal5.style.display = "block";
+  modalImg5.src = this.src;
+  captionText5.innerHTML = this.alt;
+}
+
+var closeBtn = document.getElementsByClassName("close")[0];
+
+closeBtn.onclick = function() { 
+  modal5.style.display = "none";
+}
+</script>
+
 
           </div>
         </li>
